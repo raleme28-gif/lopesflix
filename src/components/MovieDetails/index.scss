@@ -1,0 +1,37 @@
+.movie-details {
+    width: 560px;
+    margin-top: 12px;
+    display: flex;  
+    flex-direction: column;
+    gap: 12px;
+    cursor: default;
+
+    .btn-default {
+        display: flex;
+        width: 100%;
+        padding: 12px;
+        cursor: pointer;
+        font-weight: bold;
+        gap: 6px;
+        justify-content: center;
+    }
+
+    .description {
+        font-size: 14px;
+        color: #f1f5f9;
+    }
+
+    .genres {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+
+        .genre {
+            background-color: #6046ff;
+            padding: 6px 8px;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+}

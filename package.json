@@ -9,9 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "axios": "^1.13.4",
+    "franc": "^6.2.0",
     "next": "16.1.6",
+    "parse-torrent-name": "^0.5.4",
+    "parse-torrent-title": "^2.1.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-icons": "^5.5.0",
+    "react-player": "^3.4.0",
+    "sass": "^1.97.3",
+    "shaka-player": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
